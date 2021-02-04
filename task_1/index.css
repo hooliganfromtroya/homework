@@ -1,1 +1,36 @@
- 
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #E5E5E5;
+    padding: 65px 91px;
+}
+.week {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px
+    
+}
+
+
+.dayWeek {
+    width: 231px;
+    background-color: #fff;
+    height: 96px;
+    text-align: center;
+    align-items: center;
+    margin-left: 12px;
+}
+.textDayWeek {
+    text-align: center;
+    line-height: 100px;
+    font-family: Maison Neue; 
+    font-weight: 700;
+    font-style: normal;
+    font-size: 22px;
+    
+}
